@@ -121,7 +121,7 @@ const tools = computed<ToolCategory[]>(() => [
         </div>
 
         <c-tooltip position="bottom" :tooltip="$t('home.support')">
-          <c-button
+          <!-- <c-button
             round
             href="https://www.buymeacoffee.com/cthmsst"
             rel="noopener"
@@ -132,7 +132,7 @@ const tools = computed<ToolCategory[]>(() => [
           >
             {{ $t('home.buyMeACoffee') }}
             <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
-          </c-button>
+          </c-button> -->
         </c-tooltip>
       </div>
       <slot />
